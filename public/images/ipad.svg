@@ -1,0 +1,47 @@
+<svg width="203px" height="278px" viewBox="0 0 203 278" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feGaussianBlur stdDeviation="0" in="shadowOffsetInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feComposite in="shadowBlurInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.682352941   0 0 0 0 0.768627451   0 0 0 0 0.901960784  0 0 0 0.7 0" in="shadowInnerInner1" type="matrix" result="shadowMatrixInner1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Mobile-14" sketch:type="MSArtboardGroup" transform="translate(-301, -852)">
+            <g id="Group-+-Group" sketch:type="MSLayerGroup" transform="translate(137, 852)">
+                <g id="Group" transform="translate(165, 0)" sketch:type="MSShapeGroup">
+                    <g id="Path-14-+-Path-15-+-Path-17-+-Path-16-+-Path-18-+-Path-20" transform="translate(0, 108)" stroke="#4D5776" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                        <g id="Path-14-+-Path-15">
+                            <path d="M22,0 C22,0 6,5 1,40 C1,40 -1,54 3,57" id="Path-14"></path>
+                            <path d="M7,56 L3,57 L5,63" id="Path-180"></path>
+                        </g>
+                        <g id="Path-17-+-Path-16" transform="translate(184, 0)">
+                            <path d="M0.5,0 C0.5,0 10,0 14,31 C14,31 16,52 16,57" id="Path-17"></path>
+                            <path d="M12,57 L16,56 L16,63" id="Path-181"></path>
+                        </g>
+                        <g id="Path-18-+-Path-19" transform="translate(101, 134) scale(-1, 1) translate(-101, -134) translate(82, 101)">
+                            <path d="M7,0 C5,-7 7,22 0,42 C-6,58 3,64 7,67" id="Path-18" transform="translate(3, 33) scale(-1, 1) translate(-3, -33) "></path>
+                            <path d="M37,0 C35,-6 37,22 30,42 C24,58 33,64 37,67" id="Path-19" transform="translate(33, 33) scale(-1, 1) translate(-33, -33) "></path>
+                        </g>
+                    </g>
+                    <g transform="translate(21.000000, 0.000000)">
+                        <rect id="Rectangle-84" stroke="#4D5776" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#FFFFFF" x="0" y="0" width="164" height="244" rx="6"></rect>
+                        <path d="M87,232 C87,229 84,227 82,227 C79,227 77,229 77,232 C77,234 79,237 82,237 C84,237 87,234 87,232 Z" id="Path-2" stroke="#4D5776" stroke-width="3" fill="#FFFFFF"></path>
+                        <rect id="Rectangle-11" stroke="#4D5776" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#CFE3FA" filter="url(#filter-1)" x="11" y="21" width="142" height="202" rx="4"></rect>
+                        <g id="Oval-19-+-Oval-20-+-Oval-19" transform="translate(32.000000, 61.000000)" fill="#4D5776">
+                            <circle id="Oval-19" cx="3" cy="3" r="3"></circle>
+                            <path d="M35.8154766,7 C35.0793947,11.688027 30.028767,15.3161812 23.9077383,15.3161812 C17.7867096,15.3161812 12.7360819,11.688027 12,7 L35.8154766,7 Z" id="Oval-20"></path>
+                            <circle id="Oval-18" cx="44" cy="3" r="3"></circle>
+                        </g>
+                        <path d="M111,0 L2,0 L2,243 L52,243 L111,0 Z" id="Rectangle-10" opacity="0.1" fill="#4D5776"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

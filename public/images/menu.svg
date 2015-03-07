@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="50px" height="39px" viewBox="0 0 50 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 19</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Mobile-14" sketch:type="MSArtboardGroup" transform="translate(-540.000000, -50.000000)" fill="#4D5776">
+            <path d="M540,52.5 C540,51.1192881 541.114425,50 542.496615,50 L587.503385,50 C588.882228,50 590,51.1096621 590,52.5 L590,55 L540,55 L540,52.5 Z M540,67 L590,67 L590,72 L540,72 L540,67 Z M540,84 L590,84 L590,86.5 C590,87.8807119 588.885575,89 587.503385,89 L542.496615,89 C541.117772,89 540,87.8903379 540,86.5 L540,84 Z" id="Rectangle-19" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
