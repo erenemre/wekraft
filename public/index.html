@@ -36,7 +36,7 @@ That’s why we would love to work with you to craft joyful &amp; easy to use in
 	</section>
 </main>
 
-<footer class="">
+<footer class="m4">
 	<div class="background"></div>
 	<div class="ground"></div>
 	<div class="devices center">
@@ -52,10 +52,10 @@ That’s why we would love to work with you to craft joyful &amp; easy to use in
 				<div class="home" style="position: relative; bottom: -18px; left: 80px; height: 5px; width: 5px; border: 3px solid #4D5776; border-radius: 30px;"></div>
 				<div class="glare" style="position: absolute; top: 0; width: 100%; height: 100%; background: #4D5776; opacity: .1; -webkit-clip-path: polygon(0 0, 60% 0, 27% 100%, 0% 100%); clip-path: polygon(0 0, 60% 0, 27% 100%, 0% 100%);"></div>
 				<div class="legs" style="position: absolute; bottom: -49px; left: 0;">
-					<svg xmlns="http://www.w3.org/2000/svg" width="154px" height="42px" viewBox="0 0 72 42" version="1.1">
+					<svg xmlns="http://www.w3.org/2000/svg" width="144px" height="42px" viewBox="0 0 72 42" version="1.1">
 						<g id="w9" fill="none" transform="translate(72, 0) scale(-1, 1)" stroke="#4D5776" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-							<path d="M27,0 C27,0 20,26 0,36" id="leg1">
-								<animate id="leg1w01" attributeName="d" dur="50ms" begin="0s; leg1w15.end" from="M27,0 C27,0 20,26 0,36" to="M22,0 C22,0 20,21 0,31" />
+							<path d="M22,0 C22,0 22,18 0,35" id="leg1">
+								<animate id="leg1w01" attributeName="d" dur="50ms" begin="0s; leg1w15.end" from="M22,0 C22,0 22,18 0,35" to="M22,0 C22,0 20,21 0,31" />
 								<animate id="leg1w02" attributeName="d" dur="50ms" begin="leg1w01.end" from="M22,0 C22,0 20,21 0,31" to="M23,0 C23,0 25,16 5,26" />
 								<animate id="leg1w03" attributeName="d" dur="50ms" begin="leg1w02.end" from="M23,0 C23,0 25,16 5,26" to="M26,0 C26,0 33,12 13,22" />
 								<animate id="leg1w04" attributeName="d" dur="50ms" begin="leg1w03.end" from="M26,0 C26,0 33,12 13,22" to="M34,0 C34,0 41,11 24,20" />
@@ -71,8 +71,8 @@ That’s why we would love to work with you to craft joyful &amp; easy to use in
 								<animate id="leg1w14" attributeName="d" dur="50ms" begin="leg1w13.end" from="M30.7755103,0 C30.7755103,0 30.7755108,21 17,35" to="M21,0 C21,0 22,17 4,34" />
 								<animate id="leg1w15" attributeName="d" dur="50ms" begin="leg1w14.end" from="M21,0 C21,0 22,17 4,34" to="M22,0 C22,0 22,18 0,35" />
 							</path>
-							<path d="M12,0 C12,0 30,18 32,37" id="leg2">
-							<animate id="leg2w01" attributeName="d" dur="50ms" begin="0s; leg2w15.end" from="M12,0 C12,0 30,18 32,37" to="M3,0 C3,0 16,16 18,35" />
+							<path d="M4.75614357,0 C4.75614357,0 18,18 16,31" id="leg2">
+								<animate id="leg2w01" attributeName="d" dur="50ms" begin="0s; leg2w15.end" from="M4.75614357,0 C4.75614357,0 18,18 16,31" to="M3,0 C3,0 16,16 18,35" />
 								<animate id="leg2w02" attributeName="d" dur="50ms" begin="leg2w01.end" from="M3,0 C3,0 16,16 18,35" to="M5.86197757e-14,0 C5.86197757e-14,0 9,12 9,34" />
 								<animate id="leg2w03" attributeName="d" dur="50ms" begin="leg2w02.end" from="M5.86197757e-14,0 C5.86197757e-14,0 9,12 9,34" to="M5.5067062e-14,0 C5.5067062e-14,0 6,11 3,35" />
 								<animate id="leg2w04" attributeName="d" dur="50ms" begin="leg2w03.end" from="M5.5067062e-14,0 C5.5067062e-14,0 6,11 3,35" to="M4,0 C4,0 10,21 5.86197757e-14,36" />
@@ -111,9 +111,16 @@ That’s why we would love to work with you to craft joyful &amp; easy to use in
 }
 
 .frame {
-	-webkit-animation: walking ease-in-out .5s;
+	-webkit-animation: walking ease-in-out 0.45s;
 	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-delay: 0.1s;
 }
+
+.ipad {
+	-webkit-animation: move linear 5s;
+	-webkit-animation-iteration-count: 1;
+}
+
 
 @-webkit-keyframes eye-blink {
 	0% {
@@ -139,6 +146,14 @@ That’s why we would love to work with you to craft joyful &amp; easy to use in
 	}
 }
 
+@-webkit-keyframes move {
+	0% {
+		margin-left: 1000px;
+	}
+	100% {
+		margin-top: 0;
+	}
+}
 </style>
 
 </body>
