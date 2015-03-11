@@ -111,13 +111,13 @@ That’s why we would love to work with you to craft joyful &amp; easy to use in
 }
 
 .frame {
-	-webkit-animation: walking ease-in-out 0.45s;
+	-webkit-animation: walking ease-in-out 0.45s,move linear 5s,shakeit ease-in-out .7s;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-delay: 0.1s;
 }
 
 .ipad {
-	-webkit-animation: move linear 5s;
+	-webkit-animation: ;
 	-webkit-animation-iteration-count: 1;
 }
 
@@ -139,7 +139,7 @@ That’s why we would love to work with you to craft joyful &amp; easy to use in
 		margin-top: 0;
 	}
 	50% {
-		margin-top: 8px;
+		margin-top: 5px;
 	}
 	100% {
 		margin-top: 0;
@@ -152,6 +152,21 @@ That’s why we would love to work with you to craft joyful &amp; easy to use in
 	}
 	100% {
 		margin-top: 0;
+	}
+}
+
+@-webkit-keyframes shakeit {
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	25% {
+		-webkit-transform: rotate(1deg);
+	}
+	25% {
+		-webkit-transform: rotate(-1deg);
+	}
+	100% {
+		-webkit-transform: rotate(0deg);
 	}
 }
 </style>
