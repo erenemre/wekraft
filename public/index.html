@@ -40,7 +40,7 @@ That’s why we would love to work with you to craft joyful &amp; easy to use in
 	<div class="background bottom-0 absolute"></div>
 	<div class="ground bottom-0 absolute"></div>
 	<div class="devices bottom-0 absolute">
-		<div class="ipad">
+		<div class="ipad bottom-0 absolute">
 			<div class="frame" style="position: absolute; width: 164px; height: 244px; background: #fff; border: 3px solid #4D5776; border-radius: 6px;">
 				<div class="screen" style="position: relative; top: 16px; left: 8px; width: 142px; height: 206px; border: 3px solid #4D5776; border-radius: 5px; background: #CFE2F4;">
 					<div class="face" style="position: relative; top: 35px; left: 15px; width: 51px; height: 22px;">
@@ -166,17 +166,16 @@ That’s why we would love to work with you to craft joyful &amp; easy to use in
 }
 
 .frame {
-	-webkit-animation: walking ease-in-out 1225ms,zshakeit ease-in-out .875s; 
+	-webkit-animation: walking ease-in-out 1225ms; 
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-delay: 0.05s;
 	/* ,move linear 6.5s */
 }
 
 .ipad {
-	-webkit-animation: ;
+	-webkit-animation: move linear 4s;
 	-webkit-animation-iteration-count: 1;
 	height: 321px;
-	margin-left: 500px;
 }
 
 
@@ -273,10 +272,10 @@ That’s why we would love to work with you to craft joyful &amp; easy to use in
 /* 1 step = ??px */
 @-webkit-keyframes move { 
 	0% {
-		margin-left: 1005px;
+		left: 1000px;
 	}
 	100% {
-		margin-top: 0;
+		left: 0;
 	}
 }
 
